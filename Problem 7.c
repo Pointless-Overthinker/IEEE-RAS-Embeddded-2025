@@ -16,7 +16,7 @@ int main(){
     printf("Enter a number: ");
     scanf("%d", &n);
     int sum = 0;
-    int current = 0;
+    int current = n;
     while (current != 0){
         sum += current % 10;
         current /= 10;
